@@ -1,0 +1,14 @@
+div#footer{
+    margin-left: 0px; 
+    margin-top: 0%;
+    width: 1366px;
+    background-color: black;
+}
+div#body{
+     margin-left: 0px; 
+    margin-top: 50px;
+    height: 592px;
+    width: 1366px;
+    background-color:red;
+
+}
