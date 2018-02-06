@@ -1,0 +1,44 @@
+
+div#header{
+    text-align: center;
+     background-color: #eee; 
+     top : 0px;
+     left : 0px;
+     height: 50px;
+     margin-left: 0px;
+     width :1365px;
+      position: absolute;
+}
+button#signoutbtn{
+    margin-left: 1250px; 
+    margin-top: 7px;
+    position: relative;
+}
+label#usrnm{
+    margin-top: 10px;
+     position: absolute; 
+    margin-left: 5px;
+     font-size: 15px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+label#date{
+     margin-top: 10px;
+     position: absolute; 
+    margin-left: 997px;
+     font-size: 15px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+label#usrname{
+    position: absolute;
+    margin-left: 46px;
+    margin-top: 10px;
+     font-size: 15px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+span#displaydate{
+      margin-top: 10px;
+     position: absolute; 
+    margin-left: 1180px;
+     font-size: 15px;
+    font-family: Helvetica, Arial, sans-serif;
+}
