@@ -13,11 +13,13 @@ import { HeaderComponent } from './header/header.component';
 import { userDetials } from "./services/userDetails";
 import { DatePipe } from '@angular/common';
  import { Angular2FontawesomeModule  } from 'angular2-fontawesome/angular2-fontawesome';
+import { BodyComponent } from './body/body.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    BodyComponent
   ],
   imports: [
     BrowserModule,
