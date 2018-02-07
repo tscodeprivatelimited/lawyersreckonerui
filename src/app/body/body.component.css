@@ -4,14 +4,14 @@ div#column1{
     height: 592px;
     /* width: 1366px; */
     /* background-color: yellow; */
-    background-color: yellow;
+    background-color: white;
 }
 div#column2{
     margin-left: 0px; 
     /* margin-top: px; */
     height: 592px;
     width: 1138px; 
-    background-color: skyblue;
+    background-color: white;
 }
 div#innercolumn{
      margin-left: -15px; 
@@ -23,7 +23,7 @@ div#innercolumn{
     background-color: white;
 }
 ul#homelist{
-    margin-top: 100px;
+    margin-top: 20px;
     margin-left: 20px;
 }
 .container{
@@ -41,7 +41,13 @@ ul#homelist{
     margin-left: 0px;
     margin-top: 7px;
     text-align: left; 
-    background-color: red;
+    background-color: skyblue;
     color: white;
     font-family: "Arial", Times, serif;   
+}
+img#logoimg{
+    height: 150px;
+    width: 150px;
+    margin-left: 34px;
+    margin-top: 10px;
 }
