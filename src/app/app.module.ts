@@ -14,12 +14,18 @@ import { userDetials } from "./services/userDetails";
 import { DatePipe } from '@angular/common';
  import { Angular2FontawesomeModule  } from 'angular2-fontawesome/angular2-fontawesome';
 import { BodyComponent } from './body/body.component';
+import { DailymattersComponent } from './dailymatters/dailymatters.component';
+import { FooterComponent } from './footer/footer.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    BodyComponent
+    BodyComponent,
+    DailymattersComponent,
+    FooterComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

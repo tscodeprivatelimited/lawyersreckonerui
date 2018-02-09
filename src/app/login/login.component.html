@@ -1,0 +1,39 @@
+  <div id=welcomeimg>
+    <img src="./assets/welcome1.jpg" alt="img cannot be displayed" width="1365px" height="660px">  
+      <div id="loginformdiv" class="container-fluid custom-modal-container">
+            <div  class="row custom-modal-header">
+                <div id="loginheader" class="col-sm-12">
+                    <h2>Registered Users please login here</h2>
+                </div>
+            </div>
+            <div  class="row" [ngClass]="{'myclass' : shouldUseMyClass}">
+                <div id="loginformbelowheader" class="col-xs-12">
+                    <div class="jumbotron">
+                         <h2>Login</h2><br>
+                     <div *ngIf="showErrorCredential" class="font"> 
+                        <p>Invalid Creadentials !</p>
+                     </div>  
+                         <form #logInForm="ngForm" name="form" (ngSubmit)="login()">
+                                <div class="form-group">
+                                    <label for="username">Username</label>
+                                    <input type="text"  class="form-control" name="username"  ngModel #username="ngModel" required autofocus/>
+                                </div><br>
+                                <div class="form-group">
+                                    <label for="password">Password</label>
+                                    <input type="password" class="form-control" name="password" ngModel #password="ngModel" required />
+                                </div><br>
+                                <span  class="form-group" >
+                                    <button id="loginbtn" class="btn btn-lg fa fa-user" aria-hidden="true" >     Login</button>
+                                    <button id="registerbtn" class="btn btn-lg  fa fa-user-plus"  (click)="openRegisterForm()">    Register New User</button>
+                                    
+                                    <br><br><br>
+                                </span>
+                            </form>   
+                              
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+
+

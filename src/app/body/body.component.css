@@ -8,18 +8,21 @@ div#column1{
 }
 div#column2{
     margin-left: 0px; 
-    /* margin-top: px; */
-    height: 592px;
-    width: 1138px; 
+     margin-top: 5px;
+    height: 580px;
+    width: 1130px; 
     background-color: white;
+    overflow:auto;
+border-style: outset;
+     /* border: 2px outset gray;  */
 }
 div#innercolumn{
      margin-left: -15px; 
      margin-top: 22px; 
      height: 550px;
      width: 1100px; 
-     /* border: 2px outset black; */
      border-style: outset;
+     /* border: 2px outset black; */
     background-color: white;
 }
 ul#homelist{
@@ -38,10 +41,11 @@ ul#homelist{
     /* width: 170px; */
     /* width: 16%; */
     width: 175px;
-    margin-left: 0px;
+    margin-left: 0px;   
     margin-top: 7px;
     text-align: left; 
-    background-color: skyblue;
+     background-color: #255dba; 
+/* background-color: skyblue; */
     color: white;
     font-family: "Arial", Times, serif;   
 }
