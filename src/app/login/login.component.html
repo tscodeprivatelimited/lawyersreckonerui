@@ -23,7 +23,7 @@
                                     <input type="password" class="form-control" name="password" ngModel #password="ngModel" required />
                                 </div><br>
                                 <span  class="form-group" >
-                                    <button id="loginbtn" class="btn btn-lg fa fa-user" aria-hidden="true" >     Login</button>
+                                    <button id="loginbtn" class="btn btn-lg fa fa-user" (click)="openBody()"  aria-hidden="true" >     Login</button>
                                     <button id="registerbtn" class="btn btn-lg  fa fa-user-plus"  (click)="openRegisterForm()">    Register New User</button>
                                     
                                     <br><br><br>
