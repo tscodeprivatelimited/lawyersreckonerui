@@ -1,4 +1,27 @@
 
+/*Css for button bar addm, remove, filter, print
+*/
+
+div#dmfunctionbuttons{
+   margin-top: 16px;
+    margin-left: 900px;
+    height: 34px;
+}
+.inputcss{
+    float: left; 
+    margin-left: 15px;
+    padding: 6px 6px;
+    box-sizing: border-box;
+    border: 1px solid #255dba;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: #133a7a;
+}
+
+/** Css for table
+*/
 .card {
   display: inline-block;
   position: relative;
@@ -172,29 +195,4 @@
 }
 .card [data-background-color] a {
   color: #FFFFFF;
-}
-.btn-group button {
-    background-color: #255dba; /* Green background */
-    /*border: 1px solid green; /* Green border */
-    color: white; /* White text */
-    padding: 10px 24px; /* Some padding */
-    cursor: pointer; /* Pointer/hand icon */
-   /* Float the buttons side by side */
-}
-div#dmfunctionbuttons{
-   margin-top: 16px;
-    margin-left: 900px;
-    height: 34px;
-}
-.inputcss{
-    float: left; 
-    margin-left: 15px;
-    padding: 6px 6px;
-    box-sizing: border-box;
-    border: 1px solid #255dba;
-    border-radius: 5px;
-}
-
-button:hover{
-    background-color: #133a7a;
-}
+} 
