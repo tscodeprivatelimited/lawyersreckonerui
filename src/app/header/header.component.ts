@@ -19,7 +19,7 @@ userName:String="";
     signout(){
   //Navigate to Home page
   //   this.router.navigate(["/welcome"]);
-      this.appCompo.showLogin();
+      // this.appCompo.showLogin();
 }
 
 }

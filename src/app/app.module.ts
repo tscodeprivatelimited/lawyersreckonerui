@@ -17,6 +17,7 @@ import { BodyComponent } from './body/body.component';
 import { DailymattersComponent } from './dailymatters/dailymatters.component';
 import { FooterComponent } from './footer/footer.component';
 import { LoginComponent } from './login/login.component';
+import { loginSession } from "./services/loginSession";
 
 @NgModule({
   declarations: [
@@ -34,7 +35,7 @@ import { LoginComponent } from './login/login.component';
     routes,
     Angular2FontawesomeModule
   ],
-  providers: [RESTService,userDetials],
+  providers: [RESTService,userDetials,loginSession],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,9 +1,6 @@
 div#column1{
     margin-left: 0px; 
-    /* margin-top: px; */
     height: 592px;
-    /* width: 1366px; */
-    /* background-color: yellow; */
     background-color: white;
 }
 div#column2{
@@ -13,8 +10,7 @@ div#column2{
     width: 1130px; 
     background-color: white;
     overflow:auto;
-border-style: outset;
-     /* border: 2px outset gray;  */
+    border-style: outset;
 }
 div#innercolumn{
      margin-left: -15px; 
@@ -22,7 +18,6 @@ div#innercolumn{
      height: 550px;
      width: 1100px; 
      border-style: outset;
-     /* border: 2px outset black; */
     background-color: white;
 }
 ul#homelist{
@@ -31,21 +26,13 @@ ul#homelist{
 }
 .container{
     position: absolute;
-    /* width: 200px;
-    height: 371px;
-    margin-top: 100px; */
-    /* margin-left: 10px; */
 }
 .container button{
     display: block;            
-    /* width: 170px; */
-    /* width: 16%; */
     width: 175px;
     margin-left: 0px;   
     margin-top: 7px;
     text-align: left; 
-     background-color: #255dba; 
-/* background-color: skyblue; */
     color: white;
     font-family: "Arial", Times, serif;   
 }
@@ -54,4 +41,7 @@ img#logoimg{
     width: 150px;
     margin-left: 34px;
     margin-top: 10px;
+}
+button:hover{
+    background-color: #133a7a;
 }

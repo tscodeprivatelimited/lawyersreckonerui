@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { loginSession } from "./services/loginSession";
 
 @Component({
   selector: 'app-root',
@@ -8,13 +9,25 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app';
   showbody:boolean =false;
-  showlogin:boolean =true;
+  showlogin:boolean =false;
 
+  constructor(private loginsession:loginSession) { }
 
-  showLogin(){
+  ngOnInit() {
+    if (this.loginsession.getSession()) {
+          this.showlogin=false;
+    this.showbody =true;
+}else{
     this.showlogin=true;
     this.showbody =false;
+ 
+}
   }
+
+  // showLogin(){
+  //   this.showlogin=true;
+  //   this.showbody =false;
+  // }
 
   showBody(){
     this.showlogin=false;
