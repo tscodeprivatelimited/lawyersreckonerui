@@ -19,6 +19,8 @@ import { FooterComponent } from './footer/footer.component';
 import { LoginComponent } from './login/login.component';
 import { loginSession } from "./services/loginSession";
 import { ClientinformationComponent } from './clientinformation/clientinformation.component';
+import { CasesComponent } from './cases/cases.component';
+import { DocumentsComponent } from './documents/documents.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { ClientinformationComponent } from './clientinformation/clientinformatio
     DailymattersComponent,
     FooterComponent,
     LoginComponent,
-    ClientinformationComponent
+    ClientinformationComponent,
+    CasesComponent,
+    DocumentsComponent
   ],
   imports: [
     BrowserModule,
