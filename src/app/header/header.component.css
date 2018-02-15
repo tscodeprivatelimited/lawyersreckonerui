@@ -9,6 +9,7 @@ div#header{
      width :1366px;
       position: absolute;
 }
+    
 button#signoutbtn{
     margin-left: 1250px; 
     margin-top: 7px;
@@ -18,7 +19,7 @@ button#signoutbtn{
 label#usrnm{
     margin-top: 10px;
      position: absolute; 
-    margin-left: 5px;
+    margin-left: 10px;
      font-size: 15px;
     font-family: Helvetica, Arial, sans-serif;
 }
