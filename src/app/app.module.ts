@@ -18,6 +18,7 @@ import { DailymattersComponent } from './dailymatters/dailymatters.component';
 import { FooterComponent } from './footer/footer.component';
 import { LoginComponent } from './login/login.component';
 import { loginSession } from "./services/loginSession";
+import { ClientinformationComponent } from './clientinformation/clientinformation.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { loginSession } from "./services/loginSession";
     BodyComponent,
     DailymattersComponent,
     FooterComponent,
-    LoginComponent
+    LoginComponent,
+    ClientinformationComponent
   ],
   imports: [
     BrowserModule,
