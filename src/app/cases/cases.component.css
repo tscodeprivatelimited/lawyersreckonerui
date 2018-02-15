@@ -16,14 +16,7 @@ div#dmfunctionbuttons{
     border-radius: 5px;
 }
 
-.filter{
-     float: left; 
-    margin-left: 15px;
-    padding: 6px 6px;
-    box-sizing: border-box;
-    border: 1px solid #255dba;
-    border-radius: 5px;
-}
+
 button:hover{
     background-color: #133a7a;
 }

@@ -21,6 +21,7 @@ import { loginSession } from "./services/loginSession";
 import { ClientinformationComponent } from './clientinformation/clientinformation.component';
 import { CasesComponent } from './cases/cases.component';
 import { DocumentsComponent } from './documents/documents.component';
+import { ReportsComponent } from './reports/reports.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { DocumentsComponent } from './documents/documents.component';
     LoginComponent,
     ClientinformationComponent,
     CasesComponent,
-    DocumentsComponent
+    DocumentsComponent,
+    ReportsComponent
   ],
   imports: [
     BrowserModule,

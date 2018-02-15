@@ -6,6 +6,8 @@ import { LoginComponent } from './login/login.component';
 import { ClientinformationComponent } from './clientinformation/clientinformation.component';
 import { CasesComponent } from './cases/cases.component';
 import { DocumentsComponent } from './documents/documents.component';
+import { ReportsComponent } from './reports/reports.component';
+
 
 
 const router: Routes = [
@@ -14,6 +16,7 @@ const router: Routes = [
       {path: 'login', component: LoginComponent},
       {path: 'clientinformation', component: ClientinformationComponent},
       {path: 'cases', component: CasesComponent},
-      {path: 'documents', component: DocumentsComponent}
+      {path: 'documents', component: DocumentsComponent},
+      {path: 'reports', component: ReportsComponent}
 ]
 export const routes: ModuleWithProviders = RouterModule.forRoot(router);
