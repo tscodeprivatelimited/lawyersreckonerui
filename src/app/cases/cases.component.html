@@ -1,3 +1,24 @@
+<div class="row">  
+    <app-header></app-header>
+    </div>
+    <div id="body" class="row"> 
+  <div id="column1" class="col-sm-2">
+    <div>
+        <img id="logoimg" style="cursor: pointer" title="Home Page" src="./assets/logo.jpg" (click)="toHome()">
+        <!-- <button target="_blank" type="button" class="btn btn-sm" href="" title="open menu">Open menu</button> -->
+      </div>
+      <div class="container">
+        <ul id="homelist" class="nav nav-pills nav-stacked">
+          <li><button target="_blank" type="button" class="btn btn-primary btn-lg" (click)="openDailyMatters()" title="daily matters">Daily Matters</button></li>
+          <li><button target="_blank" type="button" class="btn btn-primary btn-lg selectedButton" (click)="openCases()"title="cases">Cases</button></li>
+          <li><button target="_blank" type="button" class="btn btn-primary btn-lg" (click)="openClientInfo()" title="client information">Client information</button></li>
+          <li><button target="_blank" type="button" class="btn btn-primary btn-lg" (click)="openDocument()" title="documents">Documents</button></li>
+          <li><button target="_blank" type="button" class="btn btn-primary btn-lg " (click)="openReport()" title="report">Report</button></li>
+          <li><button target="_blank" type="button" class="btn btn-primary btn-lg" (click)="openSetting()" title="setting">Setting</button></li>
+          <li><button target="_blank" type="button" class="btn btn-primary btn-lg" (click)="openHelp()" title="help">Help</button></li>  </ul>
+      </div>
+    </div>
+  <div id="column2" class="col-sm-8">
 <div>
     <input class="inputcss" placeholder="Search" autocomplete="off" spellcheck="false" autocorrect="off" tabindex="1">
     <div id="dmfunctionbuttons" class="btn-toolbar">
@@ -27,174 +48,23 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td>Karjat</td>
-                                    <td>1</td>
-                                    <td>abctry ajwakdhsd</td>
-                                    <!-- <td class="text-danger">$36,738</td> -->
-                                    <td>truhssj shashjhcsj</td>
-                                    <td>23/4/18</td>
-                                    <td>level 1</td>
-                                    <td class="text-danger">28/4/18</td>
-                                    <td>level 2</td>
-                                </tr>
-                                <tr>
-                                    <td>Karjat</td>
-                                    <td>1</td>
-                                    <td>abctry ajwakdhsd</td>
-                                    <!-- <td class="text-danger">$36,738</td> -->
-                                    <td>truhssj shashjhcsj</td>
-                                    <td>23/4/18</td>
-                                    <td>level 1</td>
-                                    <td class="text-danger">28/4/18</td>
-                                    <td>level 2</td>
-                                </tr>
-                                <tr>
-                                   <td>Karjat</td>
-                                    <td>1</td>
-                                    <td>abctry ajwakdhsd</td>
-                                    <!-- <td class="text-danger">$36,738</td> -->
-                                    <td>truhssj shashjhcsj</td>
-                                    <td>23/4/18</td>
-                                    <td>level 1</td>
-                                    <td class="text-danger">28/4/18</td>
-                                    <td>level 2</td>
-                                </tr>
-                                <tr>
-                                    <td>Karjat</td>
-                                    <td>1</td>
-                                    <td>abctry ajwakdhsd</td>
-                                    <!-- <td class="text-danger">$36,738</td> -->
-                                    <td>truhssj shashjhcsj</td>
-                                    <td>23/4/18</td>
-                                    <td>level 1</td>
-                                    <td class="text-danger">28/4/18</td>
-                                    <td>level 2</td>
-                                </tr>
-                                <tr>
-                                   <td>Karjat</td>
-                                    <td>1</td>
-                                    <td>abctry ajwakdhsd</td>
-                                    <!-- <td class="text-danger">$36,738</td> -->
-                                    <td>truhssj shashjhcsj</td>
-                                    <td>23/4/18</td>
-                                    <td>level 1</td>
-                                    <td class="text-danger">28/4/18</td>
-                                    <td>level 2</td>
-                                </tr>
-                                <tr>
-                                    <td>Karjat</td>
-                                    <td>1</td>
-                                    <td>abctry ajwakdhsd</td>
-                                    <!-- <td class="text-danger">$36,738</td> -->
-                                    <td>truhssj shashjhcsj</td>
-                                    <td>23/4/18</td>
-                                    <td>level 1</td>
-                                    <td class="text-danger">28/4/18</td>
-                                    <td>level 2</td>
-                                </tr>
-                                <tr>
-                                    <td>Karjat</td>
-                                    <td>1</td>
-                                    <td>abctry ajwakdhsd</td>
-                                    <!-- <td class="text-danger">$36,738</td> -->
-                                    <td>truhssj shashjhcsj</td>
-                                    <td>23/4/18</td>
-                                    <td>level 1</td>
-                                    <td class="text-danger">28/4/18</td>
-                                    <td>level 2</td>
-                                </tr>
-                                <tr>
-                                    <td>Karjat</td>
-                                    <td>1</td>
-                                    <td>abctry ajwakdhsd</td>
-                                    <!-- <td class="text-danger">$36,738</td> -->
-                                    <td>truhssj shashjhcsj</td>
-                                    <td>23/4/18</td>
-                                    <td>level 1</td>
-                                    <td class="text-danger">28/4/18</td>
-                                    <td>level 2</td>
-                                </tr>
-                                <tr>
-                                    <td>Karjat</td>
-                                    <td>1</td>
-                                    <td>abctry ajwakdhsd</td>
-                                    <!-- <td class="text-danger">$36,738</td> -->
-                                    <td>truhssj shashjhcsj</td>
-                                    <td>23/4/18</td>
-                                    <td>level 1</td>
-                                    <td class="text-danger">28/4/18</td>
-                                    <td>level 2</td>
-                                </tr>
-                                <tr>
-                                    <td>Karjat</td>
-                                    <td>1</td>
-                                    <td>abctry ajwakdhsd</td>
-                                    <!-- <td class="text-danger">$36,738</td> -->
-                                    <td>truhssj shashjhcsj</td>
-                                    <td>23/4/18</td>
-                                    <td>level 1</td>
-                                    <td class="text-danger">28/4/18</td>
-                                    <td>level 2</td>
-                                </tr>
-                                <tr>
-                                    <td>Karjat</td>
-                                    <td>1</td>
-                                    <td>abctry ajwakdhsd</td>
-                                    <!-- <td class="text-danger">$36,738</td> -->
-                                    <td>truhssj shashjhcsj</td>
-                                    <td>23/4/18</td>
-                                    <td>level 1</td>
-                                    <td class="text-danger">28/4/18</td>
-                                    <td>level 2</td>
-                                </tr>
-                                <tr>
-                                    <td>Karjat</td>
-                                    <td>1</td>
-                                    <td>abctry ajwakdhsd</td>
-                                    <!-- <td class="text-danger">$36,738</td> -->
-                                    <td>truhssj shashjhcsj</td>
-                                    <td>23/4/18</td>
-                                    <td>level 1</td>
-                                    <td class="text-danger">28/4/18</td>
-                                    <td>level 2</td>
-                                </tr>
-                                <tr>
-                                    <td>Karjat</td>
-                                    <td>1</td>
-                                    <td>abctry ajwakdhsd</td>
-                                    <!-- <td class="text-danger">$36,738</td> -->
-                                    <td>truhssj shashjhcsj</td>
-                                    <td>23/4/18</td>
-                                    <td>level 1</td>
-                                    <td class="text-danger">28/4/18</td>
-                                    <td>level 2</td>
-                                </tr>
-                                <tr>
-                                    <td>Karjat</td>
-                                    <td>1</td>
-                                    <td>abctry ajwakdhsd</td>
-                                    <!-- <td class="text-danger">$36,738</td> -->
-                                    <td>truhssj shashjhcsj</td>
-                                    <td>23/4/18</td>
-                                    <td>level 1</td>
-                                    <td class="text-danger">28/4/18</td>
-                                    <td>level 2</td>
-                                </tr>
-                                <tr>
-                                    <td>Karjat</td>
-                                    <td>1</td>
-                                    <td>abctry ajwakdhsd</td>
-                                    <!-- <td class="text-danger">$36,738</td> -->
-                                    <td>truhssj shashjhcsj</td>
-                                    <td>23/4/18</td>
-                                    <td>level 1</td>
-                                    <td class="text-danger">28/4/18</td>
-                                    <td>level 2</td>
+                                <tr *ngFor="let case of cases; let i = index" (click)="setClickedRow(i)" [class.active]="i == selectedRow">
+                                    <td>{{case.court}}</td>
+                                    <td>{{case.caseNumber}}</td>
+                                    <td>{{case.clientName}}</td>
+                                    <td>{{case.oppPartyName}}</td>
+                                    <td>{{case.prevDate}}</td>
+                                    <td>{{case.stage}}</td>
+                                    <td>{{case.nextDate}}</td>
+                                    <td>{{case.nextStage}}</td>
                                 </tr>
                             </tbody>
                         </table>
 
                     </div>
                 </div>
-           
+            </div>
+        </div>
+        <div>
+          <app-footer></app-footer>
+        </div>        

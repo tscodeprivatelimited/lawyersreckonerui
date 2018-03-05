@@ -22,6 +22,7 @@ import { ClientinformationComponent } from './clientinformation/clientinformatio
 import { CasesComponent } from './cases/cases.component';
 import { DocumentsComponent } from './documents/documents.component';
 import { ReportsComponent } from './reports/reports.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { ReportsComponent } from './reports/reports.component';
     ClientinformationComponent,
     CasesComponent,
     DocumentsComponent,
-    ReportsComponent
+    ReportsComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

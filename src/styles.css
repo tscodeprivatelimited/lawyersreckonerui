@@ -175,3 +175,56 @@
 .card [data-background-color] a {
   color: #FFFFFF;
 } 
+
+div#column1{
+  margin-left: 0px; 
+  height: 592px;
+  background-color: white;
+}
+div#column2{
+  margin-left: 0px; 
+   margin-top: 5px;
+  height: 580px;
+  width: 1130px; 
+  background-color: white;
+  overflow:auto;
+  border-style: outset;
+}
+div#innercolumn{
+   margin-left: -15px; 
+   margin-top: 22px; 
+   height: 550px;
+   width: 1100px; 
+   border-style: outset;
+  background-color: white;
+}
+ul#homelist{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.container{
+  position: absolute;
+}
+.container button{
+  display: block;            
+  width: 175px;
+  margin-left: 0px;   
+  margin-top: 7px;
+  text-align: left; 
+  color: white;
+  font-family: "Arial", Times, serif;   
+}
+img#logoimg{
+  height: 150px;
+  width: 150px;
+  margin-left: 34px;
+  margin-top: 10px;
+}
+button:hover{
+  background-color: #133a7a;
+}
+
+.selectedButton{
+  background: #042b4d;
+  background-color:#042b4d;
+}

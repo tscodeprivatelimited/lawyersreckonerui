@@ -1,3 +1,24 @@
+<div class="row">  
+    <app-header></app-header>
+    </div>
+    <div id="body" class="row"> 
+  <div id="column1" class="col-sm-2">
+    <div>
+        <img id="logoimg" style="cursor: pointer" title="Home Page" src="./assets/logo.jpg" (click)="toHome()">
+        <!-- <button target="_blank" type="button" class="btn btn-sm" href="" title="open menu">Open menu</button> -->
+      </div>
+      <div class="container">
+        <ul id="homelist" class="nav nav-pills nav-stacked">
+          <li><button target="_blank" type="button" class="btn btn-primary btn-lg" (click)="openDailyMatters()" title="daily matters">Daily Matters</button></li>
+          <li><button target="_blank" type="button" class="btn btn-primary btn-lg" (click)="openCases()"title="cases">Cases</button></li>
+          <li><button target="_blank" type="button" class="btn btn-primary btn-lg" (click)="openClientInfo()" title="client information">Client information</button></li>
+          <li><button target="_blank" type="button" class="btn btn-primary btn-lg selectedButton" (click)="openDocument()" title="documents">Documents</button></li>
+          <li><button target="_blank" type="button" class="btn btn-primary btn-lg " (click)="openReport()" title="report">Report</button></li>
+          <li><button target="_blank" type="button" class="btn btn-primary btn-lg" (click)="openSetting()" title="setting">Setting</button></li>
+          <li><button target="_blank" type="button" class="btn btn-primary btn-lg" (click)="openHelp()" title="help">Help</button></li>  </ul>
+      </div>
+    </div>
+  <div id="column2" class="col-sm-8">
 <div>
     <input class="inputcss" placeholder="Search" autocomplete="off" spellcheck="false" autocorrect="off" tabindex="1">
     <div id="dmfunctionbuttons" class="btn-toolbar">
@@ -50,4 +71,8 @@
 
                     </div>
                 </div>
-           
+            </div>
+        </div>
+        <div>
+          <app-footer></app-footer>
+        </div>

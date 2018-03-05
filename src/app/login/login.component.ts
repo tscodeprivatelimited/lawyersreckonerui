@@ -12,14 +12,16 @@ import { loginSession } from "../services/loginSession";
 export class LoginComponent implements OnInit {
 
   constructor(private appCompo :AppComponent,
-  private loginSession :loginSession) { }
+  private loginSession :loginSession,
+private rest: RESTService,
+private router : Router) { }
 
   ngOnInit() {
   }
   
   openBody(){
-    this.loginSession.login();
-  this.appCompo.showBody();
-  } 
+    this.router.navigate(['/home']);
+  }
+
 
 }
