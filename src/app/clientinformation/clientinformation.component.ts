@@ -9,10 +9,65 @@ import { Router } from "@angular/router";
 })
 export class ClientinformationComponent implements OnInit {
 
-  constructor(private router:Router) { }
+  selectedRow : Number;
+  setClickedRow : Function;
+  clientinformation:[{
+  clientName:string;
+  contactNumber:string;
+  caseNumber:string ;
+}];
 
+  constructor(private router:Router) { 
+     this.clientinformation = [{
+      clientName : "abcd trupti ",
+      contactNumber: "12345",
+      caseNumber: "10"
+       },
+     {
+       clientName : "abcd trupti jhdjsahdjk hkjsfh",
+       contactNumber: "123456789",
+       caseNumber: "10"
+        },
+       {
+       clientName : "abcd trupti jhdjsahdjk hkjsfh",
+       contactNumber: "123456789",
+       caseNumber: "10"
+        },
+       {
+       clientName : "abcd trupti jhdjsahdjk hkjsfh",
+       contactNumber: "123456789",
+       caseNumber: "10"
+        },
+       {
+       clientName : "abcd trupti jhdjsahdjk hkjsfh",
+       contactNumber: "123456789",
+       caseNumber: "10"
+        },
+       {
+       clientName : "abcd trupti jhdjsahdjk hkjsfh",
+       contactNumber: "123456789",
+       caseNumber: "10"
+        },
+       {
+       clientName : "abcd trupti jhdjsahdjk hkjsfh",
+       contactNumber: "123456789",
+       caseNumber: "10"
+        },
+       {
+       clientName : "abcd trupti jhdjsahdjk hkjsfh",
+       contactNumber: "123456789",
+       caseNumber: "10"
+        }
+  ];
+
+       this.setClickedRow = function(index){
+      this.selectedRow = index;
+
+  }
+  }
   ngOnInit() {
   }
+
   toHome(){
     this.router.navigate(['/home']);    
   }

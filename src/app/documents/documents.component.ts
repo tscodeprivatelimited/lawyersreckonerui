@@ -8,8 +8,32 @@ import { Router } from "@angular/router";
 })
 export class DocumentsComponent implements OnInit {
 
-  constructor(private router:Router) { }
-
+  selectedRow : Number;
+  setClickedRow : Function;
+  documents:[{
+  srNumber:string;
+  documentName:string;
+}];
+  constructor(private router:Router) {
+     this.documents = [{
+      srNumber : "1",
+      documentName: "abcdgg",
+       },
+  {
+      srNumber : "1",
+      documentName: "abcdgg", },
+  {
+      srNumber : "1",
+      documentName: "abcdgg",  },
+  {
+      srNumber : "1",
+      documentName: "abcdgg",  }];
+  
+    this.setClickedRow = function(index){
+      this.selectedRow = index;
+  }
+  
+  }
   ngOnInit() {
   }
 

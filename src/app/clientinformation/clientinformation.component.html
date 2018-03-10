@@ -44,81 +44,17 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td>abctry ajwakdhsd</td>
-                                    <td>987456321</td>
-                                    <td>3</td>
-                                </tr>
-                                <tr>
-                                     <td>abctry ajwakdhsd</td>
-                                    <td>987456321</td>
-                                    <td>3</td>
-                                </tr>
-                                <tr>
-                                    <td>abctry ajwakdhsd</td>
-                                    <td>987456321</td>
-                                    <td>3</td>
-                                </tr>
-                                <tr>
-                                     <td>abctry ajwakdhsd</td>
-                                    <td>987456321</td>
-                                    <td>3</td>
-                                </tr>
-                                <tr>
-                                   <td>abctry ajwakdhsd</td>
-                                    <td>987456321</td>
-                                    <td>3</td>
-                                </tr>
-                                <tr>
-                                   <td>abctry ajwakdhsd</td>
-                                    <td>987456321</td>
-                                    <td>3</td>
-                                </tr>
-                                <tr>
-                                    <td>abctry ajwakdhsd</td>
-                                    <td>987456321</td>
-                                    <td>3</td>
-                                </tr>
-                                <tr>
-                                    <td>abctry ajwakdhsd</td>
-                                    <td>987456321</td>
-                                    <td>3</td>
-                                </tr>
-                                <tr>
-                                    <td>abctry ajwakdhsd</td>
-                                    <td>987456321</td>
-                                    <td>3</td>
-                                </tr>
-                                <tr>
-                                    <td>abctry ajwakdhsd</td>
-                                    <td>987456321</td>
-                                    <td>3</td>
-                                </tr>
-                                <tr>
-                                     <td>abctry ajwakdhsd</td>
-                                    <td>987456321</td>
-                                    <td>3</td>
-                                </tr>
-                                <tr>
-                                    <td>abctry ajwakdhsd</td>
-                                    <td>987456321</td>
-                                    <td>3</td>
-                                </tr>
-                                <tr>
-                                     <td>abctry ajwakdhsd</td>
-                                    <td>987456321</td>
-                                    <td>3</td>
-                                </tr>
-                                <tr>
-                                    <td>abctry ajwakdhsd</td>
-                                    <td>987456321</td>
-                                    <td>3</td>
-                                </tr>
-                                <tr>
-                                     <td>abctry ajwakdhsd</td>
-                                    <td>987456321</td>
-                                    <td>3</td>
-                                </tr>
+                                <!-- <tr>
+                                    <td>abd</td>
+                                    <td>hh</td>
+                                    <td>gd</td>
+                                </tr> -->
+                                   <tr *ngFor="let clientInformation of clientinformation; let i = index" (click)="setClickedRow(i)" [class.active]="i == selectedRow">
+                                    <td>{{clientInformation.clientName}}</td>
+                                    <td>{{clientInformation.contactNumber}}</td>
+                                    <td>{{clientInformation.caseNumber}}</td>
+                                </tr> 
+
                             </tbody>
                         </table>
 
