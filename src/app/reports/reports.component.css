@@ -31,7 +31,35 @@ button#reportbtn3{
     border: 2px outset gray; 
 }
 
-button:hover{
+#reportbtn1:hover{
+    background-color: #b5c0d1;
+}
+#reportbtn2:hover{
     background-color: #b5c0d1;
 }
 
+#reportbtn3:hover{
+    background-color: #b5c0d1;
+}
+
+#menubtn1:hover{
+  background-color: #133a7a;  
+}
+#menubtn2:hover{
+  background-color: #133a7a;  
+}
+#menubtn3:hover{
+  background-color: #133a7a;  
+}
+#menubtn4:hover{
+  background-color: #133a7a;  
+}
+#menubtn5:hover{
+  background-color: #133a7a;  
+}
+#menubtn6:hover{
+  background-color: #133a7a;  
+}
+#menubtn7:hover{
+  background-color: #133a7a;  
+}
