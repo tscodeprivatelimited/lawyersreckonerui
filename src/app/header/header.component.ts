@@ -18,8 +18,11 @@ userName:String="";
   }
     signout(){
   //Navigate to Home page
-  //   this.router.navigate(["/welcome"]);
+     this.router.navigate(["/login"]);
       // this.appCompo.showLogin();
 }
+openHome(){
+    this.router.navigate(['/home']);    
+  }
 
 }
