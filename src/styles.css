@@ -176,6 +176,15 @@
   color: #FFFFFF;
 } 
 
+div#body{
+     margin-left: 0px; 
+    margin-top: 50px;
+    height: 592px;
+    width: 1366px;
+    /* background-color:red; */
+
+}
+
 div#column1{
   margin-left: 0px; 
   height: 592px;
