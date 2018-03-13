@@ -10,7 +10,7 @@
   <div class="container">
     <ul id="homelist" class="nav nav-pills nav-stacked">
       <li><button target="_blank" type="button" class="btn btn-primary btn-lg" (click)="openDailyMatters()" title="daily matters">Daily Matters</button></li>
-      <li><button target="_blank" type="button" class="btn btn-primary btn-lg" (click)="openCases()"title="cases">Cases</button></li>
+      <li><button target="_blank" type="button" class="btn btn-primary btn-lg" (click)="openCases()" title="cases">Cases</button></li>
       <li><button target="_blank" type="button" class="btn btn-primary btn-lg" (click)="openClientInfo()" title="client information">Client information</button></li>
       <li><button target="_blank" type="button" class="btn btn-primary btn-lg" (click)="openDocument()" title="documents">Documents</button></li>
       <li><button target="_blank" type="button" class="btn btn-primary btn-lg " (click)="openReport()" title="report">Report</button></li>
@@ -20,6 +20,21 @@
 </div>
 
 <div id="column2" class="col-sm-8">
+    <div id="homemenu">
+      <ul id="homemenubuttons" class="nav nav-pills ">
+        <li><button id="homebtn1" target="_blank" type="button" class="btn  btn-lg" href="" title="Today">Today()</button></li>
+        <li><button id="homebtn2" target="_blank" type="button" class="btn  btn-lg" href="" title="Tomorrow">Tomorrow()</button></li>
+        <li><button id="homebtn3" target="_blank" type="button" class="btn  btn-lg" href="" title="Day after tomorrow">Day after tomorrow()</button></li>
+      </ul>
+    </div> 
+    <!-- <div style="display: block">
+    <canvas baseChart
+              [data]="doughnutChartData"
+              [labels]="doughnutChartLabels"
+              [chartType]="doughnutChartType"
+              (chartHover)="chartHovered($event)"
+              (chartClick)="chartClicked($event)"></canvas>
+    </div> -->
    <!-- <router-outlet></router-outlet> -->
 </div>
 </div>

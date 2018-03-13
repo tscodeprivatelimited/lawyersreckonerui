@@ -1,9 +1,47 @@
 
 div#body{
-     margin-left: 0px; 
+    margin-left: 0px; 
     margin-top: 50px;
     height: 592px;
     width: 1366px;
-    /* background-color:red; */
+}
+/* Inside main body */
 
+ div#homemenu{
+    display: block;         
+    text-align: left; 
+    color: black;
+    font-family: "Arial", Times, serif;  
+    position: absolute; 
+}
+button#homebtn1{
+    width: 300px;
+    height: 100px;
+    margin-left: 65px;
+    margin-top: 30px;
+    border: 2px outset gray; 
+}
+button#homebtn2{
+    width: 300px;
+    height: 100px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border: 2px outset gray; 
+}
+button#homebtn3{
+    width: 300px;
+    height: 100px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border: 2px outset gray; 
+} 
+
+#homebtn1:hover{
+  background-color: gray;  
+}
+#homebtn2:hover{
+  background-color: gray;  
+}
+#homebtn3:hover{
+  background-color: gray;  
 }
